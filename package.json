@@ -9,9 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-pdf-viewer/core": "^3.12.0",
     "next": "14.0.3",
-    "pdfjs-dist": "^4.0.189",
+   
     "react": "^18",
     "react-dom": "^18",
     "react-draggable": "^4.4.6",
