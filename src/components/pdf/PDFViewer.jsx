@@ -34,16 +34,23 @@ const PDFViewer = () => {
         )}
       </div>
       <div className="">
+           {selectedFile && (
+              <>
         <Draggable>
           <div className="flex items-center justify-center border border-gray-300 rounded bg-gray-400 ">
             <div className="cursor-move flex items-center text-white justify-center gap-2  bg-red-500  shadow-md rounded py-2 px-2">
               Testing
             </div>
+           
+              
+           
             <div className="cursor-pointer bg-gray-400 h-full">
               <Bin />
             </div>
           </div>
         </Draggable>
+        </>
+            )}
       </div>
     </div>
   );
